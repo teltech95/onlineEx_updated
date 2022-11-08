@@ -1,0 +1,1 @@
+SELECT companyid, SUM(vot) as totals FROM `vote_tb` GROUP BY companyid ORDER BY totals DESC
